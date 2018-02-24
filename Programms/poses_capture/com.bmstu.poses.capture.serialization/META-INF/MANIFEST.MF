@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Serialization
+Bundle-SymbolicName: com.bmstu.poses.capture.serialization
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.bmstu.poses.capture.model;version="[1.0.0,2.0.0)"
+Export-Package: com.bmstu.poses.capture.serialization._import;version="1.0.0",
+ com.bmstu.poses.capture.serialization.export;version="1.0.0"

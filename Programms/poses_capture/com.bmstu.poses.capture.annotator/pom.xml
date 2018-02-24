@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.apache.uima</groupId>
+		<artifactId>uimaj-parent</artifactId>
+		<version>3.0.0-beta</version>
+		<relativePath>../uimaj-parent/pom.xml</relativePath>
+	</parent>
+
+	<artifactId>poses-annotator</artifactId>
+	<name>Poses Annotator</name>
+	<packaging>jar</packaging>
+
+	<properties>
+		<uimaScmProject>${project.artifactId}</uimaScmProject>
+		<postNoticeText>${ibmNoticeText}</postNoticeText>
+	</properties>
+
+	<dependencies>
+		<dependency>
+		    <groupId>org.apache.uima</groupId>
+		    <artifactId>uimaj-examples</artifactId>
+		    <version>2.10.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.uima</groupId>
+			<artifactId>uimaj-core</artifactId>
+			<version>${project.parent.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.uima</groupId>
+			<artifactId>uimaj-cpe</artifactId>
+			<version>${project.parent.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		    <version>4.11</version>
+		    <scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.uima</groupId>
+			<artifactId>uimaj-document-annotation</artifactId>
+			<version>${project.parent.version}</version>
+			<scope>compile</scope>
+		</dependency>
+ 		<dependency>
+			<groupId>org.apache.uima</groupId>
+			<artifactId>uimaj-tools</artifactId>
+			<version>${project.parent.version}</version>
+			<scope>compile</scope>
+		</dependency>
+ 		<dependency>
+			<groupId>org.eclipse.emf</groupId>
+			<artifactId>common</artifactId>
+			<version>2.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.emf</groupId>
+			<artifactId>ecore</artifactId>
+			<version>2.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.emf</groupId>
+			<artifactId>ecore-xmi</artifactId>
+			<version>2.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+		 <dependency>
+	      <groupId>com.google.cloud</groupId>
+	      <artifactId>google-cloud-speech</artifactId>
+	      <version>0.30.0-alpha</version>
+	    </dependency>
+	</dependencies>
+</project>

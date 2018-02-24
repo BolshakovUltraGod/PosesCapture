@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Capture
+Bundle-SymbolicName: com.bmstu.poses.capture
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: BMSTU
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.bmstu.poses.capture;version="1.0.0",
+ com.bmstu.poses.capture.model;version="1.0.0"
